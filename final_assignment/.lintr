@@ -1,0 +1,5 @@
+linters: lintr::with_defaults(
+    brace_linter = NULL,
+    trailing_whitespace_lintr = NULL,
+    indentation_linter = lintr::indentation_linter(2)
+)
